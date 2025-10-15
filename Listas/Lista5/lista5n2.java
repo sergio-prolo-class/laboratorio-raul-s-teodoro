@@ -22,6 +22,6 @@ public class lista5n2{
         String result = (nota / 4 > 6) && frequencia > 75 ? "Aprovado" : "Reprovado";
 
         System.out.printf("Média: %.1f - %s %n", (nota/4), result);
-
+        sc.close();
     }
 }
